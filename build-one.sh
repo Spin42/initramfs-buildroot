@@ -26,4 +26,4 @@ if [[ $? != 0 ]]; then
     exit 1
 fi
 
-cp "o/$base/images/rootfs.cpio.gz" "../$base.gz"
+cp "o/$base/images/rootfs.cpio.gz" "./release/$base.gz"
