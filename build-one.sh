@@ -27,5 +27,3 @@ if [[ $? != 0 ]]; then
 fi
 
 cp "o/$base/images/rootfs.cpio.gz" "../$base.gz"
-cp "o/$base/images/rootfs.cpio.xz" "../$base.xz"
-
