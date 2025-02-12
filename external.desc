@@ -1,0 +1,2 @@
+name: INITRAMFS
+desc: Buildroot configs for custom initramfs
