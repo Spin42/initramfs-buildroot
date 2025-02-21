@@ -94,7 +94,6 @@ BUILDROOT_EXPECTED_STATE_FILE=$BUILD_DIR/.custom-project-expected-br-state
 "$BASE_DIR/scripts/buildroot-state.sh" $BUILDROOT_VERSION "$BASE_DIR/patches" > "$BUILDROOT_EXPECTED_STATE_FILE"
 
 create_buildroot_dir() {
-    echo "YOYOYOYO"
     # Clean up any old versions of Buildroot
     rm -fr "$BASE_DIR"/buildroot*
 
